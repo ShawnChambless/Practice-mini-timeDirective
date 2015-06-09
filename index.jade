@@ -1,0 +1,13 @@
+doctype html
+html(ng-app='time')
+    head 
+        title Time directive
+    body(ng-controller='mainCtrl')
+        
+        h2 Hello, {{name}}
+        show-time
+    
+        script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js')
+        script(src='scripts/app.js')
+        script(src='scripts/mainCtrl.js')
+        script(src='scripts/timeDirective.js')

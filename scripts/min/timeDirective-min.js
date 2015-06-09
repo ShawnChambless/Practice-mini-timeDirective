@@ -1,0 +1,1 @@
+var app=angular.module("time");app.directive("showTime",function(){return{restrict:"E",template:" <div>The current time is {{time}}</div> ",link:function(e,t,i){var r=new Date;e.time=r.toString()}}});

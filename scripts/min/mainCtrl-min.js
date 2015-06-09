@@ -1,0 +1,1 @@
+var app=angular.module("time");app.controller("mainCtrl",function(a){a.name="Shawn"});
